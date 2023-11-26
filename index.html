@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Agende sua visita</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="banner1" id="cadastroaluno">
+        <div class="logo">
+            <img src="images/logo.png" alt="logo">
+        </div><br><br><br>
+        <div class="texto1">
+            <p style="color: white; font-size: 36px; font-family: Arial, Helvetica, sans-serif;">Visita Presencial</p>
+            <p style="color: rgb(88, 222, 255); font-size: 52px; font-family:ubuntu, sans-serif;"><b>Conheça onde você
+                    vai
+                    estudar</b></p>
+            <p style="line-height: 1.25; font-size: 24px; color: rgb(251, 251, 251);">Faça um tour pelas nossas
+                instalações,
+                conheça nosso método de ensino e entenda melhor a rotina dos nossos
+                estudantes e profissionais de ensino
+            </p><br>
+            <p style="color: white; font-size: 18px; font-family: Arial, Helvetica, sans-serif;">Estamos ansiosos para
+                receber você aqui!</p>
+        </div>
+        <div class="box">
+            <form action="">
+                <fieldset>
+                    <legend><b>Preencha o formulário</b></legend><br>
+                    <div class="inputBox">
+                        <input type="text" id="nome" class="inputUser" required autocomplete="off">
+                        <label class="LabelInput" for="name">Nome completo</label>
+                    </div><br><br>
+                    <div class="inputBox">
+                        <input type="text" class="inputUser" required autocomplete="off" id="email">
+                        <label class="LabelInput" for="email">Email</label>
+                    </div><br><br>
+                    <div class="inputBox">
+                        <input type="tel" class="inputUser" maxlenght="5" required autocomplete="off" id="telefone">
+                        <label class="LabelInput" for="telefone">Celular com o DDD</label>
+                    </div><br>
+                    <p>Gênero:</p>
+                    <div class="inputradio">
+                        <input type="radio" id="feminino" name="genero" value="feminino">
+                        <label for="feminino">Feminino</label><br>
+                        <input type="radio" id="masculino" name="genero" value="masculino">
+                        <label for="masculino">Masculino</label><br>
+                        <input type="radio" id="outros" name="genero" value="outros">
+                        <label for="outros">Outros</label>
+                    </div><br>
+                    <label for="datanascimento"><b>Data de Nascimento:</b></label>
+                    <input type="date" name="datanascimento" id="datanascimento" required><br><br>
+                    <div class="inputBox">
+                        <input type="text" id="cidade" class="inputUser" required autocomplete="off">
+                        <label class="LabelInput" for="cidade">Cidade</label>
+                    </div><br><br>
+                    <div class="inputBox">
+                        <input type="text" class="inputUser" required autocomplete="off" id="estado">
+                        <label class="LabelInput" for="estado">estado</label>
+                    </div><br><br>
+                    <div class="inputBox">
+                        <input type="text" class="inputUser" required autocomplete="off" id="endereco">
+                        <label class="LabelInput" for="endereco">Endereço</label>
+                    </div><br><br>
+                    <input type="submit" name="submit" id="submit"><br><br><br>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <section class="banner2">
+        <div class="titulo">
+            <h1><b>Conhecer pessoalmente onde você irá estudar é fundamental para assegurar seu
+                    aprendizado e ter a certeza de que fez a escolha certa.</b></h1><br><br><br>
+        </div>
+        <div class="parte1paragrafos">
+            <p>Muitas opções de cursos disponíveis e está em dúvida sobre qual é o melhor para você? Podemos tirar suas
+                dúvidas e indicar a melhor opção para você.</p>
+            <p>Antes de contratar, tenha certeza que escolheu a melhor opção! Vamos agendar uma visita para que você
+                possa conhecer melhor nossa infraestrutura, diferenciais e proposta.</p>
+        </div>
+        <div class="parte2paragrafos">
+            <p>Quer ter certeza que irá contar com o melhor método de ensino? Visite nossas salas de aula, converse com
+                nosso corpo docente (e alunos!) e conheça você mesmo nosso método.</p>
+            <p>Nossa empresa tem um compromisso com você e o seu aprendizado, por isso antes de enviar um orçamento
+                queremos entender sua necessidade e ajudar você na escolha. Agende uma visita sem compromisso!?</p>
+        </div><br><br><br>
+        <input class="botao" type="button" name="button" value="Agendar visita">
+    </section>
+    <section class="banner3">
+        <div class="titulo2">
+            <h1><b>VEJA O QUE NOSSOS ALUNOS ESTÃO FALANDO</b></h1>
+        </div>
+        <div id="divimagem1">
+            <img id="foto1" width="120px" src="images/Sara Nunes.png" alt="SaraNunes">
+        </div>
+        <div id="aluno1">
+            <p>Sara Nunes</p>
+        </div>
+        <div class="depoimento1">
+            <p>Lorem ips dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore
+                magna aliqua.
+                Ut enim ad minim veniam, quis nostr exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid
+                ex ea commodi consequatur.
+                Quis aute iure reprehenderit in voluptate velit esse cill dolore eu fugiat nulla pariatur.
+                Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                labor.</p>
+        </div>
+        <div id="divimagem2">
+            <img id="foto2" width="120px" src="images/João Dias.png" alt="JoaoDias">
+        </div>
+        <div id="aluno2">
+            <p>João Dias</p>
+        </div>
+        <div class="depoimento2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. 
+                Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+        <div id="divimagem3">
+            <img id="foto3" width="120px" src="images/Fabiana Lima.png" alt="Ketniss">
+        </div>
+        <div id="aluno3">
+            <p>Ketniss Alves</p>
+        </div>
+        <div class="depoimento3">
+            <p>Lorem ipsum dolor sit amet. 33 tenetur voluptatum ut placeat aliquam et deleniti expedita et iure architecto non beatae aperiam et dolorum itaque rem impedit optio. 
+             Et officiis blanditiis aut sint quos non natus quae.</p>
+        </div>   
+    </section>
+</body>
+
+</html>

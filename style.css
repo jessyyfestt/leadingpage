@@ -1,0 +1,354 @@
+* {
+    box-sizing: border-box;
+}
+
+.banner1 {
+    background-image: linear-gradient(to right, rgb(97, 20, 220), rgb(17, 54, 71));
+    width: 100%;
+    height: 850px;
+}
+
+.texto1 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    width: 20%;
+    color: white;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+    color: white;
+
+}
+
+.inputBox {
+    position: relative;
+}
+
+fieldset {
+    border: 3px solid dodgerblue;
+}
+
+legend {
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 8px;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 1px;
+
+}
+
+.LabelInput {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5px;
+
+}
+
+.inputUser:focus~.LabelInput,
+.inputUser:valid~.LabelInput {
+    top: -20px;
+    font-size: 13px;
+    color: dodgerblue;
+}
+
+#datanascimento {
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+#submit {
+    background-image: linear-gradient(to right, rgb(97, 20, 220), rgb(17, 54, 71));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px
+}
+
+#submit:hover {
+    background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80, 19, 195));
+}
+
+.logo {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.banner2 {
+    background-color: white;
+    height: 830px;
+}
+
+.titulo {
+
+    color: #333;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    padding: 40px;
+
+
+}
+
+.parte1paragrafos {
+    color: #333;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: baseline;
+    max-width: 488px;
+    align-self: flex-end;
+    word-break: break-word;
+    line-height: 1.42;
+    word-wrap: break-word;
+    padding: 15px;
+    width: 80%;
+    position: absolute;
+    top: 108%;
+    left: 20%;
+    padding: 15px;
+    width: 30%;
+}
+
+.parte2paragrafos {
+    color: #333;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: baseline;
+    max-width: 488px;
+    align-self: flex-end;
+    word-break: break-word;
+    line-height: 1.42;
+    word-wrap: break-word;
+    padding: 15px;
+    position: absolute;
+    top: 108%;
+    left: 55%;
+    padding: 15px;
+    width: 30%;
+}
+
+
+
+.banner3 {
+    background-color: #222f3f;
+    width: 100%;
+    height: 830px;
+
+}
+
+.botao {
+
+    text-align: center;
+    width: 18%;
+    position: absolute;
+    padding: 15px;
+    cursor: pointer;
+    color: white;
+    background-color: #f80652;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    border: none;
+    border-bottom-style: none;
+    top: 150%;
+    left: 40%;
+
+}
+
+.titulo2 {
+
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 34px;
+    font-family: sans-serif;
+    padding: 40px;
+
+}
+
+#aluno1 {
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: baseline;
+    max-width: 488px;
+    align-self: flex-end;
+    padding: 15px;
+    position: absolute;
+    top: 208%;
+    left: 15%;
+    padding: 15px;
+    width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+    #rd-image-joq3m2mz {
+        align-self: center;
+    }
+}
+
+#divimagem1 {
+    width:50%;
+    top: 195%;
+    left: 15%;
+    width: 50%;
+    padding: 15px;
+    position: absolute;
+    max-width: 488px;
+   
+}
+
+.depoimento1 {
+   
+    color: white;
+    font-style: italic;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: baseline;
+    max-width: 488px;
+    text-align: center;
+    align-self: flex-end;
+    line-height: 1.42;
+    padding: 15px;
+    position: absolute;
+    top: 212%;
+    left: 6%;
+    padding: 40px;
+    width: 30%;
+
+}
+#aluno2 {
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: baseline;
+    max-width: 488px;
+    align-self: flex-end;
+    padding: 15px;
+    position: absolute;
+    top: 208%;
+    left: 45%;
+    padding: 15px;
+    width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+    #rd-image-joq3m2mz {
+        align-self: center;
+    }
+}
+
+#divimagem2 {
+    width:50%;
+    top: 195%;
+    left: 45%;
+    width: 50%;
+    padding: 15px;
+    position: absolute;
+    max-width: 488px;
+   
+}
+
+.depoimento2 {
+   
+    color: white;
+    font-style: italic;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: baseline;
+    max-width: 488px;
+    text-align: center;
+    align-self: flex-end;
+    line-height: 1.42;
+    padding: 15px;
+    position: absolute;
+    top: 212%;
+    left: 36%;
+    padding: 40px;
+    width: 30%;
+
+}
+
+#aluno3 {
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: baseline;
+    max-width: 488px;
+    align-self: flex-end;
+    padding: 15px;
+    position: absolute;
+    top: 205%;
+    left: 72%;
+    padding: 40px;
+    width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+    #rd-image-joq3m2mz {
+        align-self: center;
+    }
+}
+
+#divimagem3 {
+    width:50%;
+    top: 195%;
+    left: 74%;
+    width: 50%;
+    padding: 20px;
+    position: absolute;
+    max-width: 488px;
+    align-self: flex-end;
+   
+}
+
+.depoimento3 {
+   
+    color: white;
+    font-style: italic;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: baseline;
+    max-width: 488px;
+    text-align: center;
+    align-self: flex-end;
+    line-height: 1.42;
+    padding: 15px;
+    position: absolute;
+    top: 212%;
+    left: 66%;
+    padding: 40px;
+    width: 30%;
+
+}
